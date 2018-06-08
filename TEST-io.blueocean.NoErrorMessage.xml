@@ -67,6 +67,11 @@
   <testcase classname="io.blueocean.TestResults" name="testCase" time="0.004">
     <error type="java.lang.InterruptedException">java.lang.InterruptedException
 	at io.blueocean.TestResults.testCase(TestResults.java:36)
-</error>
+    </error>
+    <system-out>thestdout msg
+</system-out>
+    <system-err>thestderrt msg
+thestderrt msg
+</system-err>	  
   </testcase>
 </testsuite>
