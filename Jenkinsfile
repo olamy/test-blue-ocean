@@ -31,7 +31,7 @@ pipeline {
             steps {        
                 echo 'test stuff'
                 sh 'touch TEST-*.xml'
-                step([$class: 'JUnitResultArchiver', testResults: 'TEST-*.xml'])
+                //junit testResults: 'TEST-*.xml'
             }
         }
     }
