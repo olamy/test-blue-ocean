@@ -31,7 +31,7 @@ pipeline {
             steps {        
                 echo 'test stuff'
                 sh 'touch TEST-*.xml'
-                //junit testResults: 'TEST-*.xml'
+                junit testResults: 'TEST-*.xml'
             }
         }
     }
